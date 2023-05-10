@@ -1,3 +1,7 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -11,30 +15,32 @@ body{
 }
 .app{
     background:black;
-    width:90%;
-    max-width: 600px;
+    width:100%;
+    max-width: 700px;
     margin:100px auto 0;
     border-radius: 10px;
     padding:30px;
+    font-size: 20px;
 }
 .app h1{
-    font-weight: 25px;
-    color:orange;
-    font-weight:600;
+    font-size: 450%;
+    color:rgb(205, 122, 74);
     border-bottom: 1px solid #333;
     padding-bottom:20px;
-}
+    font-family: 'UnifrakturCook', cursive;}
 .quiz{
 padding:  40px 0;  
 }
 .quiz h2{
-    font-size:24px;
-    color:rgb(228, 64, 67);
+    font-size:30px;
+    color:rgb(187, 115, 171);
     font-weight: 600;
     padding:10px;
+    padding-top: 2px;
+    padding-bottom: 40px;
 }
 .btn{
-    background: #fff;
+    background: #ad9b9e;
     color:#222;
     font-size: larger;
     font-weight: 530;
@@ -47,7 +53,7 @@ padding:  40px 0;
     cursor:pointer;
 }
 .btn:hover:not([disabled]){
-    background: rgb(250, 126, 81);
+    background: rgb(213, 96, 57);
     color:#133696;
 }
 .btn:disabled{
@@ -59,8 +65,9 @@ padding:  40px 0;
     font-weight:500;
     width:150px;
     border:0;
-    padding:10px;
-    margin:20px auto 0;
+    font-size: 140%;
+    padding:15px;
+    margin:60px auto 0;
     border-radius: 4px;
     cursor:pointer;
     display:none;
@@ -72,9 +79,10 @@ padding:  40px 0;
 
 
 .correct{
-    background: rgb(94, 168, 94);
+    background: rgb(78, 115, 78);
 }
 .incorrect{
-    background: rgb(219, 116, 116);
+    background: rgb(154, 91, 91);
 }
+
 
