@@ -1,6 +1,11 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 *{
     margin:0;
@@ -24,24 +29,26 @@ body{
 }
 .app h1{
     font-size: 450%;
+    background-color:rgb(175, 34, 34);
     color:rgb(205, 122, 74);
     border-bottom: 1px solid #333;
     padding-bottom:20px;
-    font-family: 'UnifrakturCook', cursive;}
+   }
 .quiz{
 padding:  40px 0;  
 }
 .quiz h2{
     font-size:30px;
-    color:rgb(187, 115, 171);
+    color:rgb(73, 110, 79);
     font-weight: 600;
     padding:10px;
     padding-top: 2px;
     padding-bottom: 40px;
+    font-family: 'Playfair Display', serif;
 }
 .btn{
-    background: #ad9b9e;
-    color:#222;
+    background: #353242;
+    color:rgb(173, 173, 173);
     font-size: larger;
     font-weight: 530;
     width:100%;
@@ -51,8 +58,9 @@ padding:  40px 0;
     text-align:left;
     border-radius:4px;
     cursor:pointer;
-}
-.btn:hover:not([disabled]){
+    font-family: 'Poppins', sans-serif;}
+    
+    .btn:hover:not([disabled]){
     background: rgb(213, 96, 57);
     color:#133696;
 }
